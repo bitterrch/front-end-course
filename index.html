@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" conumntent="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>space</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="header">
+            <logo><h1>Space <em>project</em></h1></logo>
+            <article class="description">
+                <p>На этом сайте вы можете ввести дату и посмотреть картинку, сделанную <em>NASA</em> в этот день!</p>
+            </article>
+            <article class="search">
+                <input type="date" id="date" min="1996-01-01">
+                <button class="btn" onclick="image_handler()">Найти</button>
+            </article>
+            <article class="description">
+              <p>Снизу будет выводиться фото!</p>
+            </article>
+        </div>
+    </header>
+</body>
+<main class="info">
+    <div id="img_container" style="display: none;">
+        <img class="image" src="https://apod.nasa.gov/apod/image/2204/N11_HubbleLake_960.jpg" alt="Здесь могла быть картинка">
+        <p class="img_description">Здесь могло быть описание</p>
+    </div>
+</main>
+<footer>
+    <p><a href="https://vk.com/im?media=&sel=161729416" target="blank">Отправить отзыв</a></p>
+</footer>
+</html>

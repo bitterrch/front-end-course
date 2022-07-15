@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    font-family:'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+    background-image: url(https://uprostim.com/wp-content/uploads/2021/04/image072-34-scaled.jpg);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.description, .search {
+    font-size: 20px;
+  	font-weight: 400;
+    margin-bottom: 30px;
+}
+logo {
+    font-size: 26px;
+  	letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+h1 {
+    font-weight: 700;
+}
+h1, .description {
+    color: white;
+}
+#img_container {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    padding: 30px;
+}
+.anim {
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+img{
+    max-width: 800px;
+    float: left;
+    margin-right: 10px;
+    padding: 16px;
+    background-color: #EDEEF0;
+    margin: 16px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey;
+}
+.img_description {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+  	font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin: 16px;
+    border: 15px solid #EDEEF0;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey;
+
+}
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    padding:15px;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+#date, .btn {
+    border: 1px solid #1d1c1d4d;
+    font-weight: 700;
+    background: white;
+    padding: 0 8px 1px;
+    font-size: 13px;
+    border-radius: 4px;
+    color: rgb(29, 28, 29);
+    height: 28px;
+    min-width: 56px;
+    cursor: pointer;
+    transition: all 80ms linear;
+}
+.btn:hover, #date:hover{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+    background: rgba(248,248,248,1);
+}
