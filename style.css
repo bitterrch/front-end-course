@@ -46,14 +46,6 @@ h1, .description {
     margin-right: 10px;
     padding: 30px;
 }
-.anim {
-    opacity: 0;
-    animation: ani 2.5s forwards;
-}
-@keyframes ani {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
 img{
     max-width: 800px;
     float: left;
